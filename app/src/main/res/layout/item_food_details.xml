@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CardContainer1"
+    android:layout_marginHorizontal="8dp"
+    app:cardCornerRadius="12dp"
+    android:layout_marginTop="10dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:id="@+id/llContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_Bestseller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="* Bestseller"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image1" />
+
+        <TextView
+            android:id="@+id/tvHandiMushuroom"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Handi Mushuroom"
+            android:textColor="@color/red"
+            android:textSize="24sp" />
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_semibold"
+
+            android:text="RS - "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+          <TextView
+            android:id="@+id/tvPrize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="10"
+
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+</LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvDiscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppins"
+            android:maxLines="1"
+            android:text="Delicious Desi Han....More"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/llBTN"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:gravity="center"
+            android:layout_alignStart="@+id/iv_img"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AC_BTN"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_add_box_24"
+                android:backgroundTint="@color/red" />
+
+            <TextView
+                android:id="@+id/et_Number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:hint="@string/_1"
+                android:layout_marginHorizontal="22sp"
+                android:inputType="number"
+                android:maxLines="0"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AC_BTN1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_indeterminate_check_box_24"
+                android:backgroundTint="@color/red" />
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Card_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/grent_bg"
+            android:clickable="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:fontFamily="@font/poppins"
+            android:layout_gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Add To Card"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

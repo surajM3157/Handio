@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoogleMapActivity">
+
+
+    <EditText
+        android:id="@+id/tv_Location"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/login_screen_bg"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:hint="@string/delivery_location"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_location_on_24" />
+
+
+
+</RelativeLayout>

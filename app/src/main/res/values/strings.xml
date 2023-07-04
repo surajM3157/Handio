@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Handio.in</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="google_map_key" translatable="false">AIzaSyD28x1MWrHG8Dskg2Ras5dKcAYc1ZW2hfg</string>
+    <string name="delivery_location" translatable="false">Delivery Location</string>
+    <string name="send_otp" translatable="false">Send otp</string>
+</resources>

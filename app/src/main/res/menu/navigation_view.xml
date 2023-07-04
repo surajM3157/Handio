@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_restaurant_menu_24"
+        android:title="MENU" />
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        android:title="CART" />
+    <item
+        android:id="@+id/blog"
+        android:icon="@drawable/ic_baseline_move_to_inbox_24"
+        android:title="BLOG" />
+
+
+    <item
+        android:id="@+id/res"
+        android:icon="@drawable/ic_baseline_file_present_24"
+        android:title="RESERVATIN" />
+
+
+</menu>
